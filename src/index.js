@@ -17,7 +17,7 @@ app.post("/ping",(req,res)=>{
 
 app.listen(config.PORT,async ()=>{
     await DBconnect();
-    console.log("Server started at PORT "+config.PORT);
+    console.log("Server started at PORT"+config.PORT);
   
 })
 
